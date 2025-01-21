@@ -64,16 +64,17 @@ export default function Home() {
             <div className="relative lg:pl-24">
               <div className="absolute top-0 right-2 rounded-full -z-10">
                 <Image
-                  src={"/img/hero-vectors.svg"}
+                  src={"/imges/hero-vectors.svg"}
                   alt="play"
                   width={280}
                   height={200}
                   className="object-cover"
+                  priority
                 />
               </div>
               <figure>
                 <Image
-                  src={"/img/hero-image.png"}
+                  src={"/imges/hero-image.png"}
                   alt="Student with books"
                   width={500}
                   height={600}
@@ -126,16 +127,17 @@ export default function Home() {
             <section className="w-full flex justify-center items-center mt-28">
               <div className="w-full justify-center relative flex gap-2">
                 <Image
-                  src="/img/laptop.png"
+                  src="/imges/laptop.png"
                   alt="Learning Management System on multiple devices"
                   width={536}
                   height={341}
                   className="object-contain w-[350px] h-[300px]"
+                  priority
                 />
                 <div className="w-full">
                   <figure className="absolute left-40 -top-10 -z-10">
                     <Image
-                      src="/img/pc.png"
+                      src="/imges/pc.png"
                       alt="Learning Management System on multiple devices"
                       width={536}
                       height={341}
