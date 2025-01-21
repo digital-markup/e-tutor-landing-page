@@ -45,7 +45,7 @@ export default function Home() {
                   className="border-[#437A48] border rounded-lg px-4 py-2 text-[#f97316] flex gap-x-2 items-center hover:bg-green-50"
                 >
                   <Image
-                    src={"/img/e-tutor-logo.png"}
+                    src={"https://i.ibb.co/GWdGxZN/e-tutor-logo.png"}
                     alt="play"
                     width={118}
                     height={36}
@@ -74,7 +74,7 @@ export default function Home() {
               </div>
               <figure>
                 <Image
-                  src={"/imges/hero-image.png"}
+                  src={"https://i.ibb.co/9b4dkpt/hero-image.png"}
                   alt="Student with books"
                   width={500}
                   height={600}
@@ -127,7 +127,7 @@ export default function Home() {
             <section className="w-full flex justify-center items-center mt-28">
               <div className="w-full justify-center relative flex gap-2">
                 <Image
-                  src="/imges/laptop.png"
+                  src="https://i.ibb.co/XFsqGkp/laptop.png"
                   alt="Learning Management System on multiple devices"
                   width={536}
                   height={341}
@@ -137,7 +137,7 @@ export default function Home() {
                 <div className="w-full">
                   <figure className="absolute left-40 -top-10 -z-10">
                     <Image
-                      src="/imges/pc.png"
+                      src="https://i.ibb.co/4KKLy7X/pc.png"
                       alt="Learning Management System on multiple devices"
                       width={536}
                       height={341}
