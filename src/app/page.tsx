@@ -45,7 +45,7 @@ export default function Home() {
                   className="border-[#437A48] border rounded-lg px-4 py-2 text-[#f97316] flex gap-x-2 items-center hover:bg-green-50"
                 >
                   <Image
-                    src={"https://i.ibb.co/GWdGxZN/e-tutor-logo.png"}
+                    src={"/e-tutor-logo.png"}
                     alt="play"
                     width={118}
                     height={36}
@@ -64,7 +64,7 @@ export default function Home() {
             <div className="relative lg:pl-24">
               <div className="absolute top-0 right-2 rounded-full -z-10">
                 <Image
-                  src={"/imges/hero-vectors.svg"}
+                  src={"/hero-vectors.svg"}
                   alt="play"
                   width={280}
                   height={200}
@@ -74,7 +74,7 @@ export default function Home() {
               </div>
               <figure>
                 <Image
-                  src={"https://i.ibb.co/9b4dkpt/hero-image.png"}
+                  src={"/hero-image.png"}
                   alt="Student with books"
                   width={500}
                   height={600}
