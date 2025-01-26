@@ -7,6 +7,7 @@ import ReviewCard from "@/components/review-card";
 import Header from "@/components/header";
 import { MovingCards } from "@/components/moving-cards";
 import { courses } from "@/shared/constants";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
@@ -19,11 +20,14 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl font-bold text-[#2B68FF]">
-                Discover best classes for the best learning
+                The Ultimate Learning Hub for the Plantation Sector
               </h1>
               <p className="text-gray-600 max-w-md">
-                Online learning and teaching marketplace with 5K+ courses & 10M
-                students. Taught by experts to help you acquire new skills.
+                In today&apos;s fast-paced world, knowledge is the key to growth
+                and sustainability. e-tutor.lk is designed specifically for the
+                plantation sector, offering a state-of-the-art Learning
+                Management System to empower planters, supervisors, and field
+                officers.
               </p>
               <div className="w-full flex gap-x-4">
                 <div className="flex gap-x-1 items-center">
@@ -37,11 +41,9 @@ export default function Home() {
                 <p className="font-medium">4.9 (5,000+ reviews)</p>
               </div>
               <div className="flex flex-wrap gap-4">
-                {/* <Button className="bg-[#437A48] hover:bg-[#437A48]/90">
-                  Try AIRobot
-                </Button> */}
                 <Link
-                  href={"#"}
+                  href={"https://kaleidoscopic-pika-11ac39.netlify.app"}
+                  target="_blank"
                   className="border-[#437A48] border rounded-lg px-4 py-2 text-[#f97316] flex gap-x-2 items-center hover:bg-green-50"
                 >
                   <Image
@@ -51,7 +53,21 @@ export default function Home() {
                     height={36}
                     className="object-contain"
                   />
-                  Access LMS
+                  Try AgriAI
+                </Link>
+                <Link
+                  href={"http://e-tutor.lk/lms/"}
+                  target="_blank"
+                  className="border-[#437A48] border rounded-lg px-4 py-2 text-[#f97316] flex gap-x-2 items-center hover:bg-green-50"
+                >
+                  Access
+                  <Image
+                    src={"/e-tutor-logo.png"}
+                    alt="play"
+                    width={118}
+                    height={36}
+                    className="object-contain"
+                  />
                 </Link>
               </div>
 
@@ -91,10 +107,8 @@ export default function Home() {
             <header className="flex flex-col mb-10">
               <h2 className="text-5xl font-bold mb-8">Courses</h2>
               <p className="max-w-md">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                veritatis, voluptatem in voluptate enim odio! Earum culpa dolore
-                distinctio quibusdam reprehenderit labore ullam, accusamus
-                adipisci a at ad dolorum facere?
+                Comprehensive Courses: Covering a wide range of topics, from
+                agronomy to management, for all levels of expertise.
               </p>
             </header>
             <div className="w-full pt-10">
@@ -110,7 +124,7 @@ export default function Home() {
               Ask Agro-bot
             </h2>
             <p className="text-gray-600 mb-8">
-              AI model trained specially for your questions
+              AI model trained specially for plantation sector
             </p>
           </div>
         </section>
@@ -127,24 +141,13 @@ export default function Home() {
             <section className="w-full flex justify-center items-center mt-28">
               <div className="w-full justify-center relative flex gap-2">
                 <Image
-                  src="https://i.ibb.co/XFsqGkp/laptop.png"
+                  src="/lms-backdrop.png"
                   alt="Learning Management System on multiple devices"
-                  width={536}
-                  height={341}
-                  className="object-contain w-[350px] h-[300px]"
+                  width={1502}
+                  height={599}
+                  className="object-contain w-full h-[390px]"
                   priority
                 />
-                <div className="w-full">
-                  <figure className="absolute left-40 -top-10 -z-10">
-                    <Image
-                      src="https://i.ibb.co/4KKLy7X/pc.png"
-                      alt="Learning Management System on multiple devices"
-                      width={536}
-                      height={341}
-                      className="object-contain w-[350px] h-[300px]"
-                    />
-                  </figure>
-                </div>
               </div>
             </section>
           </div>

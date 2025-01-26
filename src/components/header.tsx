@@ -37,10 +37,10 @@ function Header() {
             </nav>
           </div>
           <div className="flex space-x-4">
-            <Link href="/about" className="hover:text-white/90">
+            <Link href="#" className="hover:text-white/90">
               About us
             </Link>
-            <Link href="/contact" className="hover:text-white/90">
+            <Link href="#" className="hover:text-white/90">
               Contact us
             </Link>
           </div>
