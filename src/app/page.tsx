@@ -8,6 +8,7 @@ import Header from "@/components/header";
 import { MovingCards } from "@/components/moving-cards";
 import { courses } from "@/shared/constants";
 import { Button } from "@/components/ui/button";
+import { ScrollAnimation } from "@/components/scroll-animation";
 
 export default function Home() {
   return (
@@ -44,16 +45,16 @@ export default function Home() {
                 <Link
                   href={"https://kaleidoscopic-pika-11ac39.netlify.app"}
                   target="_blank"
-                  className="border-[#437A48] border rounded-lg px-4 py-2 text-[#f97316] flex gap-x-2 items-center hover:bg-green-50"
+                  className="border-[#437A48] border rounded-lg pl-2 pr-4 py-2 text-white flex gap-x-2 items-center bg-[#437A48] hover:bg-green-800"
                 >
                   <Image
-                    src={"/e-tutor-logo.png"}
+                    src={"/agro-bot-logo.png"}
                     alt="play"
                     width={118}
                     height={36}
-                    className="object-contain"
+                    className="object-cover w-[35px]"
                   />
-                  Try AgriAI
+                  Try Agra AI
                 </Link>
                 <Link
                   href={"http://e-tutor.lk/lms/"}
@@ -118,14 +119,29 @@ export default function Home() {
         </section>
 
         {/* Agro-bot Section */}
-        <section className="py-16 bg-[#F8F9FF]">
+        <section className="py-8 bg-[#F8F9FF]">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-5xl font-bold text-[#2B68FF] mb-2">
-              Ask Agro-bot
-            </h2>
-            <p className="text-gray-600 mb-8">
-              AI model trained specially for plantation sector
-            </p>
+            <ScrollAnimation
+              titleComponent={
+                <>
+                  <h1 className="text-4xl font-semibold text-gray-600 dark:text-white">
+                    AI model trained specially for plantation sector <br />
+                    <span className="text-4xl md:text-[6rem] text-[#2B68FF] font-bold mt-1.5 leading-none">
+                      Ask Agra AI
+                    </span>
+                  </h1>
+                </>
+              }
+            >
+              <Image
+                src={`/bot-interface.png`}
+                alt="hero"
+                height={790}
+                width={1400}
+                className="mx-auto rounded-2xl object-cover h-full object-left-top"
+                draggable={false}
+              />
+            </ScrollAnimation>
           </div>
         </section>
 
